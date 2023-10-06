@@ -1,0 +1,21 @@
+2023-09-25 16:19:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 19729 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-25 16:19:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 16:19:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.727 seconds (process running for 2.176)
+2023-09-25 16:19:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-25 16:19:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-25 16:19:55 [main] INFO  c.m.d.t.t.k.s.r.i.MockTwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-25 16:19:55 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Lorem Lorem Lorem Lorem Ipsum Elasticsearch Lorem Lorem Ipsum Ipsum Lorem
+2023-09-25 16:20:05 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Ipsum Ipsum Lorem Lorem Kafka Ipsum Lorem Ipsum Ipsum Ipsum
+2023-09-25 16:20:15 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Lorem Ipsum Ipsum Kafka Ipsum Ipsum Lorem
+2023-09-25 16:20:25 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Lorem Ipsum Lorem Ipsum Ipsum Java Lorem Lorem Lorem Lorem
+2023-09-25 16:20:35 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Ipsum Lorem Lorem Lorem Lorem Ipsum Kafka Ipsum Ipsum Lorem Ipsum Ipsum Ipsum
+2023-09-25 16:20:45 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Lorem Ipsum Lorem Microservices Lorem Lorem Ipsum Ipsum
+2023-09-25 16:20:55 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Ipsum Ipsum Ipsum Ipsum Elasticsearch Lorem Ipsum Lorem Ipsum Lorem
+2023-09-25 17:04:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 20848 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-25 17:04:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-25 17:04:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.752 seconds (process running for 1.457)
+2023-09-25 17:04:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-25 17:04:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-25 17:04:07 [main] INFO  c.m.d.t.t.k.s.r.i.MockTwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-25 17:04:07 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Ipsum Kafka Ipsum Lorem
+2023-09-25 17:04:17 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Lorem Ipsum Ipsum Ipsum Ipsum Lorem Lorem Elasticsearch Lorem Ipsum Lorem Lorem Ipsum Lorem Lorem

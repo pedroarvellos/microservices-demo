@@ -1,0 +1,109 @@
+2023-09-18 16:52:30 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 33931 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-18 16:52:30 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-18 16:52:31 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.686 seconds (process running for 1.471)
+2023-09-18 16:52:31 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-18 16:52:31 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-18 16:52:31 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-18 17:31:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 34864 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-18 17:31:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-18 17:31:26 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.573 seconds (process running for 1.132)
+2023-09-18 17:31:26 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-18 17:31:26 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-18 17:31:26 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:31:26 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-18 17:31:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:31:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2023-09-18 17:31:27 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:31:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:31:27 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2023-09-18 17:31:28 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:31:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:31:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2023-09-18 17:31:29 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:31:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:31:29 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2023-09-18 17:31:31 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:31:32 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:31:32 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2023-09-18 17:31:36 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:31:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:31:36 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2023-09-18 17:31:44 [Twitter Stream consumer /  [1][Waiting for 8000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:31:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:31:44 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-09-18 17:32:00 [Twitter Stream consumer /  [1][Waiting for 16000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:32:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:32:01 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 16000 milliseconds
+2023-09-18 17:32:07 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-09-18 17:39:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 35118 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-18 17:39:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-18 17:39:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.55 seconds (process running for 1.207)
+2023-09-18 17:39:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-18 17:39:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-18 17:39:50 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:39:50 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-18 17:39:50 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:39:50 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 250 milliseconds
+2023-09-18 17:39:51 [Twitter Stream consumer /  [1][Waiting for 250 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:39:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:39:51 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 500 milliseconds
+2023-09-18 17:39:51 [Twitter Stream consumer /  [1][Waiting for 500 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:39:52 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:39:52 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 1000 milliseconds
+2023-09-18 17:39:53 [Twitter Stream consumer /  [1][Waiting for 1000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:39:54 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:39:54 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 2000 milliseconds
+2023-09-18 17:39:56 [Twitter Stream consumer /  [1][Waiting for 2000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:39:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:39:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 4000 milliseconds
+2023-09-18 17:40:00 [Twitter Stream consumer /  [1][Waiting for 4000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2023-09-18 17:40:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - https://stream.twitter.com/1.1/statuses/filter.json
+2023-09-18 17:40:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 8000 milliseconds
+2023-09-18 17:40:03 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
+2023-09-18 18:34:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 36318 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-18 18:34:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-18 18:34:37 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.573 seconds (process running for 1.214)
+2023-09-18 18:34:37 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-18 18:34:37 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-18 18:34:37 [main] INFO  c.m.d.t.t.k.s.r.i.MockTwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-18 18:34:37 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Lorem Ipsum Microservices Lorem Ipsum
+2023-09-18 18:34:47 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Ipsum Ipsum Ipsum Lorem Ipsum Ipsum Kafka Ipsum Lorem Lorem Lorem Ipsum Ipsum
+2023-09-18 18:34:57 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Ipsum Ipsum Ipsum Lorem Ipsum Ipsum Microservices Lorem Ipsum Ipsum Lorem Ipsum Lorem
+2023-09-18 18:35:07 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Lorem Ipsum Ipsum Spring Lorem Lorem Lorem Lorem
+2023-09-18 18:35:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 36329 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-18 18:35:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-18 18:35:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.51 seconds (process running for 0.954)
+2023-09-18 18:35:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-18 18:35:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-18 18:35:14 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Implement TwitterKafkaStreamRunner!
+2023-09-18 18:35:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.7 with PID 36335 (/Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo/twitter-to-kafka-service/target/classes started by taaarpe1 in /Users/taaarpe1/Personal Repo/kafka-and-microservices-twitter-app/microservices-demo)
+2023-09-18 18:35:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-09-18 18:35:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.53 seconds (process running for 0.982)
+2023-09-18 18:35:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - TwitterToKafkaServiceApplication started...
+2023-09-18 18:35:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservice!
+2023-09-18 18:35:24 [main] INFO  c.m.d.t.t.k.s.r.i.MockTwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
+2023-09-18 18:35:24 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Lorem Ipsum Lorem Kafka Ipsum Ipsum Lorem Ipsum
+2023-09-18 18:35:34 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Lorem Microservices Lorem Ipsum Ipsum
+2023-09-18 18:35:44 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Ipsum Lorem Java Lorem Ipsum
+2023-09-18 18:35:54 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Ipsum Lorem Ipsum Lorem Lorem Lorem Kafka Lorem Lorem Lorem Ipsum Ipsum Ipsum
+2023-09-18 18:36:04 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Ipsum Ipsum Lorem Spring Lorem Ipsum Ipsum Ipsum
+2023-09-18 18:36:14 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Ipsum Ipsum Lorem Lorem Spring Ipsum Lorem Ipsum Lorem
+2023-09-18 18:36:24 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Ipsum Lorem Lorem Lorem Elasticsearch Lorem Ipsum Ipsum Lorem
+2023-09-18 18:36:34 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Lorem Lorem Lorem Ipsum Lorem Ipsum Ipsum Elasticsearch Ipsum Lorem Ipsum Lorem Lorem Lorem
+2023-09-18 18:36:44 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem Java Ipsum Lorem Lorem Ipsum Lorem Ipsum Lorem
+2023-09-18 18:36:54 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Lorem Ipsum Ipsum Microservices Ipsum Ipsum Ipsum
+2023-09-18 18:37:04 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Ipsum Lorem Lorem Microservices Ipsum Lorem Lorem Ipsum
+2023-09-18 18:37:14 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Lorem Lorem Kafka Lorem Ipsum Lorem Lorem
+2023-09-18 18:37:24 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Lorem Ipsum Lorem Ipsum Lorem Kafka Lorem Ipsum Lorem Ipsum Lorem Lorem
+2023-09-18 18:37:34 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Ipsum Lorem Ipsum Kafka Ipsum Ipsum Ipsum Lorem Ipsum
+2023-09-18 18:37:44 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Lorem Lorem Ipsum Ipsum Kafka Lorem Lorem Ipsum Ipsum Lorem
+2023-09-18 18:37:54 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Ipsum Lorem Lorem Spring Ipsum Ipsum Ipsum
+2023-09-18 18:38:04 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Lorem Lorem Lorem Java Lorem Ipsum
+2023-09-18 18:38:14 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Lorem Ipsum Spring Lorem Ipsum Lorem
+2023-09-18 18:38:24 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Lorem Lorem Ipsum Kafka Lorem Ipsum Ipsum Ipsum
+2023-09-18 18:38:34 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Ipsum Ipsum Lorem Ipsum Lorem Lorem Lorem Kafka Lorem Ipsum Lorem Lorem Lorem Lorem
+2023-09-18 18:38:44 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Lorem Lorem Lorem Ipsum Ipsum Lorem Ipsum Kafka Ipsum Lorem Ipsum Ipsum Ipsum Ipsum Lorem
+2023-09-18 18:38:54 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Ipsum Lorem Java Lorem Lorem
+2023-09-18 18:39:04 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Ipsum Ipsum Ipsum Ipsum Ipsum Ipsum Ipsum Microservices Lorem Lorem Lorem Lorem Ipsum Ipsum
+2023-09-18 18:39:14 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Ipsum Lorem Lorem Lorem Lorem Ipsum Lorem Ipsum Elasticsearch Lorem Lorem Lorem Ipsum Ipsum Ipsum
+2023-09-18 18:39:24 [pool-2-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem Ipsum Ipsum Ipsum Lorem Microservices Ipsum Lorem Lorem
