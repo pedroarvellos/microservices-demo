@@ -10,8 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.microservices.demo")
-// required to find spring beans (in this case TwitterToKafkaServiceConfigData) in other modules
+@ComponentScan(basePackages = "com.microservices.demo") // required to find spring beans (in this case TwitterToKafkaServiceConfigData) in other modules
 public class TwitterToKafkaServiceApplication implements CommandLineRunner {
 
     private static final Logger LOG = LoggerFactory.getLogger(TwitterToKafkaServiceApplication.class);

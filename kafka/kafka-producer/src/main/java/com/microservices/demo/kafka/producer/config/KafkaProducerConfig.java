@@ -1,5 +1,6 @@
 package com.microservices.demo.kafka.producer.config;
 
+import com.fasterxml.jackson.databind.JsonSerializer;
 import com.microservices.demo.config.KafkaConfigData;
 import com.microservices.demo.config.KafkaProducerConfigData;
 import org.apache.avro.specific.SpecificRecordBase;
@@ -52,3 +53,4 @@ public class KafkaProducerConfig<K extends Serializable, V extends SpecificRecor
     public KafkaTemplate<K, V> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
+}

@@ -1,6 +1,6 @@
 package com.microservices.demo.kafka.admin.clients;
 
-import com.microservices.demo.common.config.RetryConfigData;
+import com.microservices.demo.config.RetryConfigData;
 import com.microservices.demo.config.KafkaConfigData;
 import com.microservices.demo.kafka.admin.exception.KafkaClientException;
 import org.apache.kafka.clients.admin.AdminClient;
