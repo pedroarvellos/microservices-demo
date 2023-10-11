@@ -84,6 +84,6 @@ services:
 #  docker run -it --network=host confluentinc/cp-kafkacat kafkacat -L -b localhost:19092
 
 # And to fetch results as a consumer:
-#  docker run -it --network=host confluentinc/cp-kafkacat kafkacat -C -b localhost:19092
+#  docker run -it --network=host confluentinc/cp-kafkacat kafkacat -C -b localhost:19092 -t twitter-topic
 
 # To run the environment docker-compose -f common.yml -f kafka_cluster.yml up

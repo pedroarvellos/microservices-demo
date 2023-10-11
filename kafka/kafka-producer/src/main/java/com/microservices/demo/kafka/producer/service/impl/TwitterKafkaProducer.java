@@ -28,8 +28,12 @@ public class TwitterKafkaProducer implements KafkaProducer<Long, TwitterAvroMode
     @Override
     public void send(String topicName, Long key, TwitterAvroModel message) {
         LOG.info("Sending message='{}' to topic='{}'", message, topicName);
-        CompletableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture = kafkaTemplate.send(topicName, key, message);
-        addCallback(topicName, message, kafkaResultFuture);
+        try {
+            CompletableFuture<SendResult<Long, TwitterAvroModel>> kafkaResultFuture = kafkaTemplate.send(topicName, key, message);
+            addCallback(topicName, message, kafkaResultFuture);
+        } catch(Exception e) {
+            LOG.error(e.getMessage());
+        }
     }
 
     @PreDestroy
