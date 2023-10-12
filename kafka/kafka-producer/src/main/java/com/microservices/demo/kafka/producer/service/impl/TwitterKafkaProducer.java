@@ -8,7 +8,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.CompletableFuture;
@@ -49,7 +48,7 @@ public class TwitterKafkaProducer implements KafkaProducer<Long, TwitterAvroMode
         kafkaResultFuture.whenComplete((result, exception) -> {
             if (exception == null) {
                 RecordMetadata metadata = result.getRecordMetadata();
-                LOG.debug("Received new metadata. Topic: {}; Partition {}; Offset {}; Timestamp {}, at time {}",
+                LOG.info("Received new metadata. Topic: {}; Partition {}; Offset {}; Timestamp {}, at time {}",
                         metadata.topic(),
                         metadata.partition(),
                         metadata.offset(),
