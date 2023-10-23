@@ -1,3 +1,4 @@
+# spring cloud will run the app on the port 8888 with the configuration that it will download from that is in the uri property in the bootstrap.yml
 server:
   port: 8888
 

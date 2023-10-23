@@ -1,10 +1,13 @@
 spring:
   application:
     name: configserver
+  profiles:
+    active: composite
   cloud:
     config:
       server:
         git:
-          uri: file://Users/Shared/projects/microservices-demo/config-server-repository
+          uri: https://github.com/pedroarvellos/config-server-repository.git
           clone-on-start: true
+        bootstrap: true
     fail-fast: true

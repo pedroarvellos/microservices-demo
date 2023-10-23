@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>app-config-data</module>
         <module>twitter-to-kafka-service</module>
+        <module>app-config-data</module>
         <module>kafka</module>
         <module>kafka/kafka-model</module>
         <module>kafka/kafka-admin</module>
@@ -35,8 +35,8 @@
         <spring-retry.version>2.0.3</spring-retry.version>
         <kafka-avro-serializer.version>7.4.0</kafka-avro-serializer.version>
         <jakarta-activation.version>2.1.2</jakarta-activation.version>
-        <spring-cloud.version>2.2.6.RELEASE</spring-cloud.version>
-        <spring-cloud-dependencies.version>Hoxton.SR9</spring-cloud-dependencies.version>
+        <spring-cloud.version>4.0.4</spring-cloud.version>
+        <spring-cloud-dependencies.version>2022.0.4</spring-cloud-dependencies.version>
     </properties>
     <repositories>
         <repository>
@@ -159,6 +159,7 @@
                 </exclusions>
             </dependency>
 
+            <!-- spring cloud to keep our configuration in a microservice maintained by spring -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-config-server</artifactId>
@@ -171,6 +172,12 @@
                 <version>${spring-cloud-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-config</artifactId>
+                <version>${spring-cloud.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
