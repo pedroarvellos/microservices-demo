@@ -1,4 +1,4 @@
-# spring cloud will run the app on the port 8888 with the configuration that it will download from that is in the uri property in the bootstrap.yml
+# spring cloud will run the app on the port 8888 with the configuration that it will download from that is in the uri property
 server:
   port: 8888
 
@@ -6,3 +6,16 @@ logging:
   level:
     ROOT: INFO
     org.spring.framework.cloud.config: DEBUG
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pedroarvellos/config-server-repository.git
+          clone-on-start: true
+          default-label: master
+        bootstrap: true
+    fail-fast: true
