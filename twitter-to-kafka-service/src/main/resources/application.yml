@@ -4,7 +4,7 @@ spring:
   profiles:
     active: twitter_to_kafka
   config:
-    import: 'configserver:'
+    import: 'optional:configserver:'
   cloud:
     config:
       name: twitter-to-kafka-service,config-client # this config-client is the prefix of the config file in the config-server-repository, in this case, we have config-client-twitter_to_kafka.yml
